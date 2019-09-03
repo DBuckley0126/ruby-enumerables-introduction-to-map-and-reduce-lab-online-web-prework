@@ -48,8 +48,7 @@ end
 def map_to_square(source_array)
   
   i = 0
-  new_array = []
-  
+
   while i < source_array.length do
     
   new_array << source_array[i] ** 2
@@ -67,7 +66,7 @@ end
 def reduce_to_total(source_array, starting_point = 0)
   
   i = 0
-  new_array = []
+
   total = starting_point
   
   while i < source_array.length do
@@ -80,15 +79,14 @@ def reduce_to_total(source_array, starting_point = 0)
 p total
 end
 
-def reduce_to_all_true(source_array))
+def reduce_to_all_true(source_array)
   
   i = 0
-  new_array = []
-  total = starting_point
   
   while i < source_array.length do
   
-  total = total + source_array[i]  
+  if not source_array[i] = true
+  
   i += 1
   
   end
