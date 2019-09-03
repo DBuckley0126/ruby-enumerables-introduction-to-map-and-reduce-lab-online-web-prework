@@ -85,7 +85,8 @@ def reduce_to_all_true(source_array)
   
   while i < source_array.length do
   
-  if not source_array[i] = true
+  unless source_array[i] = true
+  
   
   i += 1
   
