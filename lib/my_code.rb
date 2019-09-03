@@ -45,3 +45,17 @@ def map_to_double(source_array)
 p new_array
 end
 
+def map_to_double(source_array)
+  
+  i = 0
+  new_array = []
+  
+  while i < source_array.length do
+    
+  new_array << source_array[i] * 2
+  i += 1
+  
+  end
+  
+p new_array
+end
