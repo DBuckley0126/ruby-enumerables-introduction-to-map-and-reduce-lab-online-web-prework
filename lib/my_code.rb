@@ -83,6 +83,7 @@ end
 def reduce_to_all_true(source_array)
   
   i = 0
+  true? = yes
   
   while i < source_array.length do
   
