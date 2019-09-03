@@ -96,3 +96,20 @@ def reduce_to_all_true(source_array)
   
   tru
 end
+
+def reduce_to_all_true(source_array)
+  
+  i = 0
+  
+  tru = true
+  
+  while i < source_array.length do
+  
+    unless source_array[i]
+      tru = false
+    end
+  i += 1
+  end
+  
+  tru
+end
