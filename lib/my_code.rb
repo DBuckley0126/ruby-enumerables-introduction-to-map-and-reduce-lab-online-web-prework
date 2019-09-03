@@ -83,15 +83,15 @@ end
 def reduce_to_all_true(source_array)
   
   i = 0
-  true? = yes
+  true_? = true
   
   while i < source_array.length do
   
     unless source_array[i]
-      
+      true_? = false
     end
   i += 1
   end
   
-  true
+  true_?
 end
