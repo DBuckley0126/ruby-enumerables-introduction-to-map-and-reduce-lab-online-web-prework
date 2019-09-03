@@ -7,8 +7,10 @@ def map_to_negativitize(source_array)
   
   while i < source_array.length do
     
-  new_array.  source_array[i] 
-    
-  end
+  new_array << source_array[i] * -1
+  i += 1
   
+  end
+
+p new_array
 end
