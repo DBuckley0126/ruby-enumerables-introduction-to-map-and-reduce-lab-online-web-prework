@@ -2,6 +2,7 @@
 
 def map_to_negativitize(source_array)
   
-  while
+  i = 0
+  while i 
   
 end
