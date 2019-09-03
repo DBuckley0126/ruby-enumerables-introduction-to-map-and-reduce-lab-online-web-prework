@@ -66,12 +66,14 @@ end
 
 def reduce_to_total(source_array, starting_point)
   
-  i = starting_point
+  i = 0
   new_array = []
+  total = starting_point
   
   while i < source_array.length do
-    
-  new_array << source_array[i] ** 2
+  
+  total = total + source_array[i]  
+  new_array <<  total
   i += 1
   
   end
