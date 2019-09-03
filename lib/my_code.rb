@@ -64,9 +64,9 @@ end
 
 #Ruduce-like
 
-def map_to_square(source_array)
+def reduce_to_total(source_array, starting_point)
   
-  i = 0
+  i = starting_point
   new_array = []
   
   while i < source_array.length do
